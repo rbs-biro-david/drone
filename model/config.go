@@ -1,6 +1,6 @@
 package model
 
-// ConfigStore persists pipeline configuration to storage.
+// ConfigStore persists pipeline configuration to storage. Test
 type ConfigStore interface {
 	ConfigLoad(int64) (*Config, error)
 	ConfigFind(*Repo, string) (*Config, error)
