@@ -3,6 +3,7 @@ workspace:
   path: src/github.com/drone/drone
 
 
+
 pipeline:
   test:
     image: golang:1.8
